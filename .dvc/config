@@ -1,0 +1,6 @@
+[core]
+    remote = storage
+['remote "myremote"']
+    url = /Users/tari/Desktop/dvc_test/local_remote
+['remote "storage"']
+    url = ../myremote
