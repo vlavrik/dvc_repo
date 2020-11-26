@@ -1,5 +1,5 @@
 [core]
     remote = minioremote
 ['remote "minioremote"']
-    url = s3://minio/test-bucket/
+    url = s3://minio/data
     endpointurl = http://localhost:9000/

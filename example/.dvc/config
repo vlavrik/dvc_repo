@@ -1,0 +1,7 @@
+[core]
+    no_scm = True
+    remote = myremote
+['remote "myremote"']
+    url = s3://minio/dvc-storage
+    profile = local
+    endpointurl = http://localhost:9000
